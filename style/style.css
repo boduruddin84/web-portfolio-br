@@ -51,3 +51,19 @@ nav li button span {
     color: var(--Dark-03-color);
 }
 /* nav bar end */
+
+/* Banner section start */
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-description {
+
+}
+
+#banner-img {
+    width: 584px;
+    height: 676px;
+}
+/* Banner section end */
