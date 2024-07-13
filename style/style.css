@@ -47,14 +47,11 @@ nav li button {
     border-radius: 5px;
 }
 
-nav li button span {
-    color: var(--Dark-03-color);
-}
 /* nav bar end */
 
 /* Banner section start */
 .header {
-    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     margin-left: 50px;
@@ -101,7 +98,7 @@ nav li button span {
     background-color: var(--button-color);
     border: none;
     margin-right: 20px;
-    padding: 19px 17px 18px 52px;
+    padding: 19px 17px 18px 17px;
     border-radius: 5px;
 }
 
