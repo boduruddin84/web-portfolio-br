@@ -13,6 +13,29 @@
     --white-color: #FFFFFF;
 }
 
+main {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.text-heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-family: 700;
+    color: var(--Dark-01-color);
+    text-align: center;
+}
+
+.text-description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-family: 400;
+    color: var(--Dark-03-color);
+    text-align: center;
+}
+
 @media screen and (max-width: 576px) {
     nav,
     nav ul,
