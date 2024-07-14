@@ -86,7 +86,7 @@ main {
     .about-me {
         width: 100%;
         height: 100%;
-        margin: 20px;
+        margin: 80px 20px 0px 20px;
         border: none;
     }
 
@@ -96,5 +96,23 @@ main {
 
     .about-me-items {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .what-i-do {
+        margin-top: 150px;
+    }
+
+    .what-i-do p {
+        width: calc(100% - 40px);
+        padding: 0px 20px;
+        margin-bottom: 120px;
+    }
+
+    .what-i-do-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .what-i-do-item {
+        width: 100%;
     }
 }
